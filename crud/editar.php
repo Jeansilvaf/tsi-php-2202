@@ -20,3 +20,16 @@ $stmt->execute();
 
 $aluno = $stmt->fetch(PDO::FETCH_ASSOC);
 
+
+//FAZER EM CASA
+require_once "formEditar.php";
+//mostrar um formulario html p/ o usuario
+//com os dados do aluno selecionado
+//para ser editado
+
+//Ao clicar em "gravar" no Formulario 
+//fazer update no banco e voltar p/ index
+//com uma mensagem de erro ou sucesso
+
+
+var_dump($aluno);
