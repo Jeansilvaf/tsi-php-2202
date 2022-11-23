@@ -32,6 +32,6 @@ if( $consulta->execute() ){
 }else{
     $gravou = false;
 }
-//Finalmente executamos a consulta
-//no SGBD
+//Finalmente executamos a consulta no SGBD
+//Chama o index.php
 include 'index.php';

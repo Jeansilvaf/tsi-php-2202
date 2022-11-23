@@ -26,13 +26,12 @@
         >Noturno</option>
     </select>
     <br><br>
-    <label for="inicio">inicio</label>
-    <input type="date" name="inicio" id="inicio" value="<?php echo $aluno['inicio']; ?>">
-    <br><br>
-
-    <input type="hidden" name="id" value="<?php echo $aluno['id']; ?>">
-    <input type="btn" value="Gravar">
-</form>
-    
+    <label for="inicio">Início</label>
+<input type="date" name="inicio" id="inicio" value="<?php echo $aluno['inicio']?>">
+<br><br>
+<input type="hidden" name="id" value="<?php echo $aluno['id']; ?>">
+<input class="btn" type="submit" value="Atualizar">
+    <form>
+</div>
 </body>
 </html>

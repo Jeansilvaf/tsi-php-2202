@@ -21,4 +21,8 @@ $stmt->execute();
 
 
 
-var_dump($_POST);
+$atualizou = false;
+if($stmt->rowCount() > 0){
+    $atualizou = true;
+}
+include 'listar.php';
